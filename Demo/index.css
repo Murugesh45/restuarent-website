@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(./download.png);
+    background-position: center;
+    backdrop-filter: blur(1px);
+    
+
+
+
+
+
+    
+}  
+.nav{
+    background-color: black;
+}
+h1{
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+}
+span{
+    color: red;
+}
+#nav1{
+     position: absolute;
+     right: 10px;
+     top: 10px;
+     border: 1px solid black;
+     border-radius: 5px;
+     color: white;
+     background-color: cadetblue;
+     font-size: 1.9rem;
+     font-weight: bold;
+     
+     
+}
+#nav1:hover{
+    cursor: pointer;
+    color: black;
+}
+
+#navbar{
+    background-color: cadetblue;
+    width: 100%;
+    position: absolute;
+    top: 53px;
+    right: 0;
+    display: none;
+    z-index: 4;
+    
+}
+ul{
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+li{
+    padding: 10px 0;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#item{
+    text-decoration: none;
+    color: white;
+}
+#item:hover{
+    color: black; 
+}
+#nav2{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: cadetblue;
+    display: none;
+
+    
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+}
+#nav2:hover{
+   cursor: pointer;
+   color: black;
+
+}
+#para1{
+    text-transform: uppercase;
+    color: yellowgreen;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#para3{
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 2.5rem;
+
+}
+#para{
+    color: cadetblue;
+}
+#para2{
+    color: whitesmoke;
+    margin-left: 20px;
+    width: 60vw;
+    
+    
+   
+}
+button{
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+    
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+#icon{
+    color: white;
+}
+p{
+    color: white;
+    
+}
+#con{
+    margin-left: 20px;
+    font-weight: bold;
+    color: chartreuse;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+#con1{
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: pink;
+    width: 70vw;
+}
+#men{
+    display: inline;
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#icon{
+    margin-left: 40px;
+    padding: 10px 0;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: cadetblue;
+    font-weight: bold;
+}
+#btn {
+    background-color: white;
+    color: black;
+   
+}
+#con2{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    cursor: pointer;
+}
+table{
+    color: white;
+    width: 50vw;
+    margin-top: 45px;
+    
+}
+th{
+    font-size: 1.7rem;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 10px;
+    
+
+}
+
+
+td{
+    padding: 7px 0;
+    font-size: 1.2rem;
+    position: relative;
+    left: 30px;
+    color: white;
+
+
+}
+tr:nth-child(even)
+{
+  background-color: grey;
+}
+.footer {
+  background: #2c2c2c;
+  color: #eee;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 1rem;
+  color: #f8c146;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+.image1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+
+}
+.image1 img{
+    border: 2px solid black
+}
+
